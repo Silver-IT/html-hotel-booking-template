@@ -1,0 +1,352 @@
+/*-----------------------------------------
+ [MASTER RESPONSIVE STYLE SHEET]
+ * Project: The Royal - Hotel | Restaurant Booking
+ * Version: v1.1.1
+ * Copyright 2017-2020 rn53themes
+ * Last Changes: 01 Aug 2017 
+ * Author: RN53 Themes
+ * Email:      rn53themes@gmail.com
+ * Website:    http://www.rn53themes.net 
+ -----------------------------------------------*/
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 1200px wide,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 1200px) {} @media screen and (min-width: 1200px) {} @media screen and (max-width: 1200px) and (min-width: 992px) {}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 1120px wide,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 1120px) {
+    .db-left {
+        width: 30%;
+    }
+    .db-cent {
+        width: 70%;
+    }
+    .db-righ {
+        width: 70%;
+        float: right;
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 992px wide,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 992px) {
+    .foot-1 {
+        display: none
+    }
+    .menu-section {
+        display: none
+    }
+    .mm {
+        display: block;
+    }
+    .r-com {
+        width: 100%;
+    }
+    .r2 {
+        border-bottom: 1px solid #d1d1d1;
+        border-right: 0px solid #d1d1d1;
+    }
+    .r3 {
+        border-bottom: 1px solid #d1d1d1;
+        border-right: 0px solid #d1d1d1;
+    }
+    .r4 {
+        border-bottom: 1px solid #d1d1d1;
+        border-right: 0px solid #d1d1d1;
+    }
+    .inn-bod {
+        width: 100%;
+        float: right;
+    }
+    .inn-detail {
+        background-size: 0%;
+        background: none;
+    }
+    .inn-com-list-point ul li {
+        font-size: 14px;
+        width: 48%;
+    }
+    .in-blog h3 {
+        margin-top: 25px;
+    }
+    .log-in-pop-left {
+        width: 100%;
+        padding: 7%;
+    }
+    .log-in-pop-right {
+        width: 100%;
+        padding: 7%;
+    }
+    .offer-r {
+        display: none;
+    }
+    .book-form {
+        margin-top: 0px;
+    }
+    .book-title {
+        padding: 0%;
+        margin-bottom: 30px;
+    }
+    .book-title h2 {
+        margin-bottom: 10px;
+    }
+    .book-title p {
+        color: #ffffff;
+    }
+    .bot-gal {
+        margin-bottom: 40px;
+        position: relative;
+        overflow: hidden;
+    }
+    footer h4 {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .foot-sec2 {
+        margin-top: 0px;
+    }
+    .inn-banner {
+        margin-top: 57px;
+        padding: 35px 20px;
+    }
+    .db-left {
+        width: 100%;
+    }
+    .db-cent {
+        width: 100%;
+    }
+    .db-righ {
+        width: 100%;
+        float: right;
+    }
+    .db-left-2 {
+        padding: 20px;
+    }
+    .db-left-2 ul li {
+        width: 25%;
+    }
+    .db-left-2 ul li:nth-child(2) {
+        border-right: 1px solid #f7485f;
+    }
+    .db-left-2 ul li:nth-child(6) {
+        border-right: 1px solid #f7485f;
+        border-bottom: 0px solid #f7485f;
+    }
+    .db-left-2 ul li:nth-child(5) {
+        border-bottom: 0px solid #f7485f;
+    }
+    .dashboard {
+        margin-top: 56px;
+    }
+    .n2-event {
+        margin-bottom: 30px;
+    }
+    .mm-logo a img {
+        padding: 12px 8px 4px 8px;
+    }
+    .about-right {
+        margin-top: 40px;
+    }
+    .new-con {
+        margin-top: 30px;
+    }
+    .re-room-list-2 h4 {
+        margin-top: 20px;
+    }
+    .re-room-list-3 span {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .events h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .hp-ov-fac img {
+        margin-bottom: 35px;
+    }
+    .hp-view {
+        height: 450px;
+    }
+	.hp-right-com {
+		margin-bottom: 0px;
+	}	
+	.hp-call{
+		margin-bottom:30px;
+	}
+	.hp-book{
+		margin-bottom:30px;
+	}
+	.log-in-pop-left ul {
+		display: none;
+	}
+	.log-in-pop-left h4{
+		display:none;
+	}
+	.last-sec-spa {
+		margin-bottom: 100px;
+	}	
+}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 767px wide,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+    .foot-2 {
+        display: none
+    }
+    .foot-4 {
+        display: none
+    }
+    .foot-3 {
+        width: 100%;
+    }
+    .foot-3 a {
+        padding: 7px 5px;
+        display: block;
+        text-align: center;
+    }
+    .home-bod {
+        width: 100%;
+        float: left;
+        padding: 0px;
+    }
+    .log-in-pop {
+        width: 75%;
+    }
+    .n21-blog {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .n21-blog img {
+        width: 100%;
+        padding: 0px;
+    }
+    .n22-blog {
+        width: 100%;
+    }
+    .slider .slides li .caption {
+        top: 25%;
+        left: 10%;
+        width: 80%;
+        right: 10%;
+    }
+    .slid-cap p {
+        display: none;
+    }
+    .slid-cap h2 {
+        font-size: 42px;
+    }
+    .slider.fullscreen {
+        height: 400px;
+    }
+    .slider .indicators {
+        display: none;
+    }
+    .db-left-2 ul li {
+        width: 25%;
+    }
+    .db-left-2 ul li:nth-child(2) {
+        border-right: 1px solid #f7485f;
+    }
+    .db-left-2 ul li:nth-child(6) {
+        border-right: 1px solid #f7485f;
+    }
+    .db-2-main-1 {
+        width: 100%;
+    }
+    .db-profile {
+        width: 80%;
+    }
+    .db-profile-view {
+        width: 80%;
+    }
+    .db-profile-edit {
+        width: 80%;
+    }
+    #portfoliolist .portfolio {
+        width: 48%;
+        margin: 1%;
+    }
+    #ads {
+        display: none;
+    }
+    .db-cent-wr-con {
+        width: 80%;
+    }
+    .room-1 {
+        width: 100%;
+    }
+    .page-head {
+        width: 80%
+    }
+    .room-soc-share ul li {
+        margin-bottom: 15px;
+    }
+    .hp-amini ul li {
+        width: 30%;
+    }
+    .tab-hide {
+        display: none;
+    }
+    .hp-view {
+        height: 300px;
+    }
+}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 480px wide,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+    .home-bod-2 ul li {
+        width: 46%;
+    }
+    .home-bod-2 ul li a {
+        width: initial;
+    }
+    .inn-com-list-point ul li {
+        font-size: 16px;
+        width: 100%;
+    }
+    .res-menu img {
+        float: inherit;
+        display: block;
+    }
+    .res-menu h3 span {
+        float: initial;
+        display: inline-block;
+        margin: 15px 0px;
+    }
+    .res-menu h3 {
+        margin-top: 12px;
+    }
+    .log-in-pop {
+        width: 90%;
+    }
+    .hp-review-left {
+        width: 100%;
+        padding-right: 0px;
+        border-right: 0px solid #6b7f8a;
+    }
+    .hp-review-right {
+        width: 100%;
+        padding: 25px 0px 2px 0px;
+    }
+    .lr-user-wr-con {
+        width: 85%;
+    }
+    .hp-view {
+        height: 250px;
+    }
+	.hp-book-in ul li {
+		width: 100%;
+	}	
+	.hp-book-in ul li a {
+		display: block;
+	}	
+}
